@@ -4,7 +4,7 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 import Home from "../screens/Home";
 import Profile from "../screens/Profile";
-import Category from "../screens/Category";
+import Users from "../screens/Users";
 
 
 
@@ -31,9 +31,9 @@ const TabRoutes = () => {
         }}
 
       />
-      <Tab.Screen name="Category" component={Category}
+      <Tab.Screen name="Users" component={Users}
         options={{
-          tabBarLabel: 'Category',
+          tabBarLabel: 'Users',
           tabBarIcon: ({ focused }) => {
             return <MaterialCommunityIcons name="format-list-bulleted" color={"#131313"} size={24} />;
           }
