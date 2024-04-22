@@ -43,9 +43,6 @@ export default function Users() {
     console.log(users)
   }, [])
 
-
-
-
   return (
     <View style={styles.container}>
       <ScrollView>
